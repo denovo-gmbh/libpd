@@ -50,6 +50,7 @@ int sys_pollgui(void);
   void pique_setup();
   void sigmund_tilde_setup();
   void stdout_setup();
+  void spigot_tilde_setup();
 #endif
 
 static PERTHREAD t_atom *argv = NULL;
@@ -101,6 +102,7 @@ int libpd_init(void) {
   pique_setup();
   sigmund_tilde_setup();
   stdout_setup();
+  spigot_tilde_setup();
 #endif
 #ifndef LIBPD_NO_NUMERIC
   setlocale(LC_NUMERIC, "C");

@@ -156,6 +156,7 @@
 		119013A01486450C00086F19 /* PdFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8C8DC91312007F000B9D7A /* PdFile.m */; };
 		119013A11486450C00086F19 /* PdDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5828C8B41409C8C600F8B9AC /* PdDispatcher.m */; };
 		119013A71486450C00086F19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		1A2A889426748312002A473A /* spigot~.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A889326748312002A473A /* spigot~.c */; };
 		30377F451866680A0026ED3E /* x_array.c in Sources */ = {isa = PBXBuildFile; fileRef = 30377F421866680A0026ED3E /* x_array.c */; };
 		30377F461866680A0026ED3E /* x_array.c in Sources */ = {isa = PBXBuildFile; fileRef = 30377F421866680A0026ED3E /* x_array.c */; };
 		30377F471866680A0026ED3E /* x_scalar.c in Sources */ = {isa = PBXBuildFile; fileRef = 30377F431866680A0026ED3E /* x_scalar.c */; };
@@ -511,6 +512,7 @@
 		110E6DD2147B838F00282ABC /* PdAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdAudioUnit.h; sourceTree = "<group>"; };
 		110E6DD3147B838F00282ABC /* PdAudioUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdAudioUnit.m; sourceTree = "<group>"; };
 		119013AB1486450C00086F19 /* libpd-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libpd-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2A889326748312002A473A /* spigot~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "spigot~.c"; sourceTree = "<group>"; };
 		30377F421866680A0026ED3E /* x_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x_array.c; sourceTree = "<group>"; };
 		30377F431866680A0026ED3E /* x_scalar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x_scalar.c; sourceTree = "<group>"; };
 		30377F441866680A0026ED3E /* x_text.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x_text.c; sourceTree = "<group>"; };
@@ -627,6 +629,7 @@
 		0E82A08F12EEFE050053280E /* libpd_wrapper */ = {
 			isa = PBXGroup;
 			children = (
+				1A2A889326748312002A473A /* spigot~.c */,
 				306DBE4F16BC6710007CF226 /* util */,
 				0E82A09012EEFE050053280E /* s_libpdmidi.c */,
 				0E82A09112EEFE050053280E /* x_libpdreceive.c */,
@@ -1391,6 +1394,7 @@
 				0E82A06612EEFDEE0053280E /* m_atom.c in Sources */,
 				30CEFE471A6A5EDC000E3BAE /* fiddle~.c in Sources */,
 				0E82A06712EEFDEE0053280E /* m_binbuf.c in Sources */,
+				1A2A889426748312002A473A /* spigot~.c in Sources */,
 				0E82A06812EEFDEE0053280E /* m_class.c in Sources */,
 				0E82A06912EEFDEE0053280E /* m_conf.c in Sources */,
 				0E82A06B12EEFDEE0053280E /* m_glob.c in Sources */,
